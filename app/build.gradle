@@ -1,0 +1,19 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "jonasfa.github.com.picassobug"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.+'
+    compile 'com.squareup.picasso:picasso:2.3.+'
+}
